@@ -9,7 +9,7 @@ async function Products() {
       <div className="bg-purple-400 w-5/6 sm:h-2/4 p-5 rounded-lg flex flex-col items-center">
         <h1 className="font-bold py-4">Products Page</h1>
         <div>
-          {response.map((item: any, index: any) => {
+          {response.map((item: any, index: number) => {
             return (
               <div key={index} className=" sm:px-40 font-bold">
                 <br />
